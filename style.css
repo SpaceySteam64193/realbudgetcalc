@@ -1,0 +1,116 @@
+h1 {
+    font-size: 3rem;
+    width:100%;
+    color:ghostwhite;
+    text-shadow: 0 0 3px black;
+    margin: 30px 0 30px 30px;
+}
+
+body {
+    background-color:#0A5BA8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.yellowL {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.yellowR {
+    width:100%;
+}
+
+p {
+    font-size:1rem;
+}
+
+.deductions td {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.column1, .column2, .column3 {
+    width:30%;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column1 p, .column2 p, .column3 p{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0;
+    padding: 10px 0 10px 0;
+}
+
+.left {
+    display: flex;
+    width: 49%;
+    background-color:#FFEE51;
+    margin:1%;
+}
+
+.right {
+    display: flex;
+    width: 49%;
+    background-color:#FFEE51;
+    margin:1%;
+}
+
+p:nth-child(even) {
+    background-color:gold;
+}
+
+.deductions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.deductions div {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+tr {
+    background-color: gold;
+}
+
+.checkregister td {
+    font-size: 1.25rem;
+}
+
+.checkregister {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.clearall {
+    margin-top: 1vh;
+}
+
+@media screen and (max-width: 1300px) {
+    .column1, .column2, .column3 {
+        width:100%;
+    }
+}
