@@ -10,6 +10,7 @@ body {
     background-color:#0A5BA8;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .yellowL {
@@ -54,9 +55,9 @@ h3 {
 
 .left {
     display: flex;
-    width: 49%;
+    width: 47%;
     background-color:#FFEE51;
-    margin:1%;
+    margin:.5%;
 }
 
 .right {
@@ -112,5 +113,31 @@ tr {
 @media screen and (max-width: 1300px) {
     .column1, .column2, .column3 {
         width:100%;
+    }
+
+    .left, .right {
+        width:100%;
+    }
+
+    .deduct {
+        display: flex;
+        flex-wrap: wrap;
+        transform:scale(100%, 100%);
+    }
+
+    .register {
+        display: flex;
+        flex-wrap: wrap;
+        transform:scale(80%, 80%);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .deduct {
+        transform:scale(75%, 75%);
+    }
+
+    .register {
+        transform:scale(50%, 50%);
     }
 }
